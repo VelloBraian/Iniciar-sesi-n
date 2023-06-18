@@ -1,0 +1,72 @@
+/*FONDO DE PANTALLA DE INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://th.bing.com/th/id/R.4d9f89e0d00fe07f15b3a59d0ee31ad4?rik=dzbuiuCCaRKBKQ&riu=http%3a%2f%2fwww.tributos.net%2fwp-content%2fuploads%2f2016%2f06%2fDefinici%c3%b3n-de-Empresa.jpg&ehk=uJmBVjBOSZCMawRlsUCKBS9GHB12lAX%2bhMqwSneFlwc%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* ****** */
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 35px #fff;
+}
+/** logo ARGENTINA PROGRAMA**/
+.inicio .contenido-seccion header .logo .color{
+    color: #65ebf5;
+    font-family: 'Roboto', sans-serif;
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #940209;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+/* estilos generales */
+.titulo-seccion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
